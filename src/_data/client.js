@@ -1,24 +1,26 @@
 module.exports = {
-    "name": "Splendid Sites Web Designs",
-    "email": "help@splendidsites.com",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
-    "openingHours": "Mon-Sun: 9am-9pm",
-    "onlineBooking": "https://www.facebook.com/",
+    "name": "Patthira Thai Spa",
+    "email": "patthirathaispa@gmail.com",
+    "phoneForTel": "+441604946448",
+    "phoneFormatted": "01604 946448",
+    "openingHours": "Mon-Sun: 10am-8pm",
+    "onlineBooking": "https://patthirathaispa.setmore.com/",
     "address": {
-        "lineOne": "First Address Line",
+        "lineOne": "34 York Rd",
         "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "country": "US",
-        "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
+        "city": "Northampton",
+        "state": "",
+        "zip": "NN1 5QH",
+        "country": "UK",
+        "mapLink": "https://maps.app.goo.gl/oNukY9Las2WTSCdT8"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/profile.php?id=61572085995736",
+        "whatsapp": "https://wa.me/+447947424114",
         "googleReview": "",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    "domain": "https://patthirathaispa.co.uk"
 };
+
+

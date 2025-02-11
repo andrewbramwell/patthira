@@ -47,6 +47,7 @@
     /* 400px - 775px */
     height: clamp(25rem, 70vw, 48.4375rem);
     overflow: hidden;
+    border-radius: 1.5em;
   }
   #sbs-867 .cs-picture img {
     position: absolute;
@@ -80,7 +81,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #sbs-867 .cs-topper {
-    color: var(--primaryLight);
+    color: var(--primary);
   }
   body.dark-mode #sbs-867 .cs-title,
   body.dark-mode #sbs-867 .cs-text {
