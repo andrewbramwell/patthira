@@ -1,4 +1,3 @@
-<!-- A fully fleshed-out <head>, dynamically changing based on client.json and the page front matter -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,8 +15,8 @@
         <meta property="og:description" content="{{ description }}"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="{{ client.domain }}{{ page.url }}"/>
-        <meta property="og:image" content="/assets/images/logo-small.png"/>
-        <meta property="og:image:secure_url" content="/assets/images/logo-small.png"/>
+        <meta property="og:image" content="/assets/images/logo.svg"/>
+        <meta property="og:image:secure_url" content="/assets/images/logo.svg"/>
 
         <!--Favicons-->
         <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
@@ -28,9 +27,9 @@
         <link rel="manifest" href="/assets/favicons/site.webmanifest" />
 
         <!-- Preloads -->
-        <link rel="preload" as="image" href="/assets/svgs/logo-white.svg">
-        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
-        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
+        <link rel="preload" as="image" href="/assets/svgs/logo.svg">
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/dm-sans-v15-latin-regular.woff2" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/fira-sans-v17-latin-600.woff2" crossorigin>
 
         <!-- Preload an image - tag not rendered if preloadImg is blank to stop console errors -->
         {% if preloadImg != '' %}
@@ -49,7 +48,7 @@
     </head>
     <body>
         <!--Screen reader skip main nav-->
-        <a class="skip" aria-label="skip to main content" href="#main" tabindex="1">Click To Skip To Main Content</a>
+        <a class="skip" aria-label="skip to main content" href="#main" tabindex="0">Click To Skip To Main Content</a>
 
         {% include "components/header.html" %}
 
