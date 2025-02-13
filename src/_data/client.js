@@ -3,11 +3,11 @@ module.exports = {
     "email": "patthirathaispa@gmail.com",
     "phoneForTel": "+441604946448",
     "phoneFormatted": "01604 946448",
-    "openingHours": "Mon-Sun: 10am-8pm",
+    "openingHours": "Mon-Sat: 10am-8pm",
     "onlineBooking": "https://patthirathaispa.setmore.com/",
     "address": {
         "lineOne": "34 York Rd",
-        "lineTwo": "Second Address Line",
+        "lineTwo": "",
         "city": "Northampton",
         "state": "",
         "zip": "NN1 5QH",
