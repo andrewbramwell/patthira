@@ -4,7 +4,7 @@ module.exports = {
     "phoneForTel": "+441604946448",
     "phoneFormatted": "01604 946448",
     "openingHours": "Mon-Sat: 10am-8pm",
-    "onlineBooking": "https://patthirathaispa.setmore.com/",
+    "onlineBooking": "https://www.treatwell.co.uk/place/patthira-thai-spa/",
     "address": {
         "lineOne": "34 York Rd",
         "lineTwo": "",
